@@ -24,9 +24,9 @@
    A flag -v é usada para exibir a saída do teste no terminal. 
    A flag -run é usada para especificar a função de teste a ser executada.
 
-3. **View the Test Output:**
+3. **Veja a Saída do Teste:**
    Após executar o teste, você verá a saída no terminal. A saída do teste indicará se o teste passou ou falhou
 
-4. **Interpreting the Test Output:**
+4. **Interpretando a Saída do Teste:**
    - Se o teste passar, você verá uma mensagem indicando que o teste passou.
    - Se o teste falhar, você verá uma mensagem de erro indicando o motivo da falha.
