@@ -1,0 +1,33 @@
+### GET request to example server
+GET http://localhost:8080/user/83b9f719-aa98-4135-88b1-3c5d6b7e5f34
+
+### POST request to create an auction
+POST http://localhost:8080/auction
+Content-Type: application/json
+
+{
+  "product_name": "Celular Iphone 7",
+  "category": "Eletronico",
+  "description": "Usado, em bom estado",
+  "condition": 1,
+  "status": 0
+}
+
+### GET request to retrieve all auctions with parameters
+GET http://localhost:8080/auction?status=0
+
+### POST request to create a bid
+POST http://localhost:8080/bid
+Content-Type: application/json
+
+{
+  "auction_id": "16056850-bd50-4c15-96f9-3b27adc24d22",
+  "user_id": "83b9f719-aa98-4135-88b1-3c5d6b7e5f34",
+  "amount": 100.0
+}
+
+### GET request to retrieve the winning bid for a specific auction
+GET http://localhost:8080/auction/winner/16056850-bd50-4c15-96f9-3b27adc24d22
+
+### GET request to retrieve bids for a specific auction
+GET http://localhost:8080/bid/770513a0-4534-457e-8290-d6a22ef4baee

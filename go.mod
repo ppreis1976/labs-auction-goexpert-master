@@ -2,8 +2,6 @@ module fullcycle-auction_go
 
 go 1.21
 
-toolchain go1.23.4
-
 require (
 	github.com/gin-gonic/gin v1.9.1
 	github.com/go-playground/locales v0.14.1
